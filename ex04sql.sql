@@ -130,6 +130,22 @@ select * from tblcountry
     
     select * from tblcountry
     where not population is not null; //이렇게 더 많이씀
+--tblinsa. 연락처가 없는 직원?
+select * from tblinsa;
+select * from tblinsa where tel is null;
+
+select * from tblinsa where tel is not null;
+
+--tbltodo
+select * from tbltodo;
+--할일을 완료한 일들?
+select *from tbltodo where completedate is not null;
+
+--도서관>> 대여 테이블(컬럼: 대여날짜 , 반납날짜)
+--아직까지 반납을 안한 사람?
+select * from 대여 where 반납날짜 is null;
+select * from 대여 where 반납날짜 is not null;
+
 
 select *   ---
 from tblcountry     --1
