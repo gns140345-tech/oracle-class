@@ -7,7 +7,8 @@
 
     dml >>select ,insert,update,delete
     
-    insert문
+    insert문  ㅠ
+    
         -테이블에 데이터를 추가하는 명령어
         
         insert into 테이블명(컬럼리스트) values (값리스트);
