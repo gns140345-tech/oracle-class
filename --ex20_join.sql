@@ -328,8 +328,8 @@ create sequence rentSeq;
         
         조인의 종류(ansi)
         1.크로스조인 ,cross join
-        2.내부조인, inner join
-        3.외부조인, outer join
+        2.내부조인, inner join************* 2,3번 위주로
+        3.외부조인, outer join***********************
             5.전체 외부 조인 , full outer join
         4.셀프조인, self join
         

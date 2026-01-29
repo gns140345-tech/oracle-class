@@ -19,7 +19,7 @@ create table tblSales (
 
 
 
--- 4개
+-- 4개(비디오 대여방)
 
 -- 장르
 create table tblGenre (
